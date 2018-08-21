@@ -7,7 +7,7 @@ const patternSchema = new mongoose.Schema({
   },
   grid: {
     type: Array,
-    default: undefined,
+    default: Array(64),
     required: true
   },
   owner: {

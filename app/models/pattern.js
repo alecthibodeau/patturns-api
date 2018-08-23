@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const patternSchema = new mongoose.Schema({
   info: {
     type: String,
-    required: true
+    required: false
   },
   grid: {
     type: Array,

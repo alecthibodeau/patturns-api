@@ -67,8 +67,8 @@ Pattern, Delete
 
 ## Dependencies Installation
 
-Install dependencies: 'npm install`
-Install nodemon: 'npm install -g nodemon`
+- Install dependencies: `npm install`
+- Install nodemon: `npm install -g nodemon`
 
 ----------------------------------------------------------------
 (C) 2018 Alec Thibodeau

@@ -1,38 +1,74 @@
 # Patturns
 ## Full-Stack Project: API
 
-## Summary
+## Description
 
-My project is a pattern maker. Users can change the color of cells on a 8x8 grid as a visual tool to sketch ideas for various purposes: engineering, drawing, quilting or as a creative, meditative exercise.
+Patturns is a pattern-making visual tool for both practical and fun purposes. Users can change the colors of cells on the screen's 10 x 10 grid by drawing with a trackpad or mouse. Patterns is applicable for projects in engineering, quilting, mosaics and more. Patturns can also serve as a relaxing exercise and a creativity stimulator.
 
-## User Stories
+## Project Links
 
-- As a visitor to the Patturns website I want to know how to sign up and sign in so that I can become a user.
+- API Repository: https://github.com/alecthibodeau/patturns-api
+- API Deployed: https://patturns-api.herokuapp.com
+- Client Repository: https://github.com/alecthibodeau/patturns-client
+- Client Deployed: https://alecthibodeau.github.io/patturns-client
 
-- As a signed-in user I need to see the options available to me so that I can create a new pattern, access/modify patterns that have already been created, change my password or sign out.
+## Technologies
 
-- As a user wanting to create a new pattern I need to see my color options so that I can use them to design the pattern.
+I developed the Patturns website as my final project while a student in the Web Development Immersive (WDI) course at General Assembly. I used JavaScript, CSS3/Sass, HTML5, Handlebars – with some Bootstrap for modals – as my primary technologies for the front-end work. For the back-end I built an API using MongoDB, Express and Node.js. The database is stored at Heroku.
 
-- As a user wanting to save a newly made pattern I need to know how to associate helpful text information with my pattern and then submit them together so that the entire pattern is created on my database.
-
-- As a user wanting to access created patterns I need to know how to call all patterns that have been created in the database so that I can see or modify them.
-
-- As a user wanting to modify a pattern I need to see all my saved patterns so that I can update or delete a specific one.
+Technical Specifications
+- Single page application
+- Custom API
+- RESTful routes for handling GET, POST, PATCH, and DELETE requests
+- jQuery for DOM manipulation and event handling
+- AJAX for interacting with the custom API
+- Responsive web design with original styling
 
 ## Entity Relationship Diagram (ERD)
 ![Patturns ERD](https://i.imgur.com/9Are5yw.jpg)
 
-## Wireframe
-![Patturns Wireframe](https://i.imgur.com/8MITRUb.jpg)
+## Routes Catalog
 
-## Future Features
+User, Sign-Up
+- path: /sign-up
+- method: POST
 
-- Add more colors for the user to select.
-- Add a larger grid with more than 64 cells.
-- Add option to cycle through saved patterns as an animation.
+User, Sign-In
+- path: /sign-in
+- method: POST
 
-## [License](LICENSE)
+User, Change Password
+- path: /change-password
+- method: PATCH
 
-1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-1. All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+User, Sign-Out
+- path: /sign-out
+- method: DELETE
+
+Pattern, Index
+- path: /patterns
+- method: GET
+
+Pattern, Show
+- path: /patterns/patternId
+- method: GET
+
+Pattern, Create
+- path: /patterns
+- method: POST
+
+Pattern, Update
+- path: /patterns/patternId
+- method: PATCH
+
+Pattern, Delete
+- path: /patterns/patternId
+- method: DELETE
+
+## Dependencies Installation
+
+Install dependencies: 'npm install`
+Install nodemon: 'npm install -g nodemon`
+
+----------------------------------------------------------------
+(C) 2018 Alec Thibodeau

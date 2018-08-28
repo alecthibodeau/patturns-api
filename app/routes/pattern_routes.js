@@ -31,7 +31,8 @@ const router = express.Router()
 // INDEX
 // GET /patterns
 router.get('/patterns', requireToken, (req, res) => {
-  Pattern.find()
+  // Pattern.find() // Original line without requiring ownership
+  Pattern.find({ 'owner': req.user._id }).populate('itemReference')
     .then(patterns => {
       // `patterns` will be an array of Mongoose documents
       // we want to convert each one to a POJO, so we use `.map` to

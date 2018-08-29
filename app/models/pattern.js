@@ -10,10 +10,6 @@ const patternSchema = new mongoose.Schema({
     default: Array(100),
     required: true
   },
-  niceDate: {
-    type: String,
-    required: true
-  },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',

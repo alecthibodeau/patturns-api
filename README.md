@@ -3,14 +3,16 @@
 
 ## Description
 
-Patturns is a pattern-making visual tool for both practical and fun purposes. Users can change the colors of cells on the screen's 10 x 10 grid by drawing with a trackpad or mouse. Patterns is applicable for projects in engineering, quilting, mosaics and more. Patturns can also serve as a relaxing exercise and a creativity stimulator.
+Patturns is a pattern-making visual tool for both practical and fun purposes. Users can make patterns by changing the colors of cells on the screen's 10 x 10 grid with a trackpad, mouse or mobile interface. Patturns is applicable for basic projects in engineering, quilting, mosaics and more. Patturns can also serve as a relaxing exercise and a creativity stimulator.
+
+Why "Patturns" as a name? My ultimate feature for this project would be a user network, allowing people to pass patterns back forth to each other: taking "turns" working together on a shared pattern.
 
 ## Project Links
 
 - API Repository: https://github.com/alecthibodeau/patturns-api
 - API Deployed: https://patturns-api.herokuapp.com
 - Client Repository: https://github.com/alecthibodeau/patturns-client
-- Client Deployed: https://alecthibodeau.github.io/patturns-client
+- Client Deployed: https://alect.me/patturns-client
 
 ## Technologies
 
@@ -25,7 +27,7 @@ Technical Specifications
 - Responsive web design with original styling
 
 ## Entity Relationship Diagram (ERD)
-![Patturns ERD](https://i.imgur.com/9Are5yw.jpg)
+![Patturns ERD](https://i.imgur.com/VkUUFB1.jpg)
 
 ## Routes Catalog
 

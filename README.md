@@ -16,7 +16,7 @@ Why "Patturns" as a name? My ultimate feature for this project would be a user n
 
 ## Technologies
 
-I developed the Patturns website as my final project while a student in the Web Development Immersive (WDI) course at General Assembly. I used JavaScript, CSS3/Sass, HTML5, Handlebars – with some Bootstrap for modals – as my primary technologies for the front-end work. For the back-end I built an API using MongoDB, Express and Node.js. The database is stored at Heroku.
+I developed the Patturns website as my capstone project while a student in the Web Development Immersive (WDI) course at General Assembly. I used JavaScript, CSS3/Sass, HTML5, Handlebars – with some Bootstrap for modals – as my primary technologies for the front-end work. For the back-end I built an API using MongoDB, Express and Node.js. The database is stored at Heroku.
 
 Technical Specifications
 - Single page application
